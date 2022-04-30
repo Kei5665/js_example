@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>NES.css</title>
+  <link href="https://fonts.googleapis.com/css?family=Press+Start+2P" rel="stylesheet">
+  <link href="https://unpkg.com/nes.css/css/nes.css" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <div class="nes-table-responsive">
+    <table class="nes-table">
+      <thead>
+        <tr>
+          <th>
+            <p id="name_user">ユーザー</p>
+            <i class="nes-bulbasaur"></i>
+          </th>
+          <th>
+            <p id="name_monster">相手</p>
+            <i class="nes-squirtle"></i>
+          </th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>
+            <p>HP:</p>
+            <progress class="nes-progress is-success" id="life_user" value="100" max="100"></progress>
+          </td>
+          <td>
+            <p>HP:</p>
+            <progress class="nes-progress is-primary" id="life_monster" value="100" max="100"></progress>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+
+  <div class="nes-container is-rounded">
+    <p id="comment">どちらかを押して下さい!!</p>
+    <button id="attack" class="nes-btn is-success">Success</button>
+    <button id="attack_monster" class="nes-btn is-primary">Primary</button>
+  </div>
+
+  <script src="answer.js"></script>
+</body>
+</html>

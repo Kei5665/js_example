@@ -1,0 +1,24 @@
+body {
+  text-align: center;
+}
+.nes-progress {
+  height: 1rem;
+  width: 6rem;
+  }
+.nes-container.is-rounded {
+margin: 30px auto 0;
+width: fit-content
+}
+.nes-table th::after, .nes-table th::before, .nes-table td::after, .nes-table td::before {
+background: none;
+}
+.nes-table th, .nes-table td {
+border: none;
+}
+.nes-table {
+  text-align: center;
+  margin: 0 auto;
+}
+.nes-bulbasaur {
+  transform: scale(-1, 1);
+}
