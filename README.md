@@ -2,7 +2,7 @@
 
 遊びながらJSを学んでみよう！
 
-![](https://gyazo.com/b95cac3782bbb071c36fb304515cf81f)
+![b95cac3782bbb071c36fb304515cf81f](https://user-images.githubusercontent.com/64511596/166099254-a449fb86-a16e-446e-ae10-800e589a8b58.png)
 
 ## 環境構築
 このリポジトリーをクローンしてください。
