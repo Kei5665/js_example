@@ -26,6 +26,8 @@ function alterLife_user(){
 function alterLife_monster(){
 }
 
+// 課題1〜2はコードのコメントアウトを解除してください
+
 // 課題1
 // jsで名前をポケモンの名前に変更してください
 // name_user.textContent = ""
