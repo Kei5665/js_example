@@ -20,7 +20,7 @@ attackBtn_monster.addEventListener('click', alterLife_user);
 
 // ユーザーのダメージ処理
 function alterLife_user(){
-  comment.textContent = `${name_monster.textContent}が${attackBtn_user.textContent}を繰り出した!!`;
+  comment.textContent = `${name_monster.textContent}が${attackBtn_monster.textContent}を繰り出した!!`;
   // 受けたダメージをライフゲージに合計する
   life_user += damege 
   comment.style.background = 'skyblue';
