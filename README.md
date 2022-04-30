@@ -8,7 +8,7 @@
 このリポジトリーをクローンしてください。
 
 一度ローカルで動きを確認したら、
-49行目のscriptタグのリンクをanswer.jsからindex.jsに変更してください。
+index.htmlの49行目のscriptタグのリンクをanswer.jsからindex.jsに変更してください。
 
 ## 課題
 課題はindex.jsの下の方に書いてあります。
